@@ -4,10 +4,10 @@ import Avatar from "../assets/homeAva.png";
 
 const Home = () => {
   return (
-    <div className="  w-full h-screen flex flex-col lg:flex-row justify-center mr-10 bg-[#0a192f] ">
+    <div className=" bg-[#0a192f] w-full h-screen flex justify-center  container">
       {/* Container */}
-      <div className=" ">
-        <div className="max-w-[1000px] ml-[5rem]  flex flex-col justify-center h-full">
+      <div className="flex ">
+        <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
           <p className="text-pink-600">Hi, My name is </p>
           <h1 className="text-4xl sm:text-7xl font-bold  text-[#ccd6f6]">
             Nguyen Tran Thai Duy
@@ -31,11 +31,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <img
-        className="object-cover scale-[50%] rounded-full hover:scale-[60%] duration-300  hover:shadow-2xl hover:shadow-white "
-        src={Avatar}
-        alt="Photo Thai Duy"
-      />
+      <div className="flex justify-left">
+        <img
+          className="object-cover scale-"
+          src={Avatar}
+          alt="Photo Thai Duy"
+        />
+      </div>
     </div>
   );
 };

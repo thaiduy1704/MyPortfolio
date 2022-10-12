@@ -4,7 +4,7 @@ import Avatar from "../assets/homeAva.png";
 
 const Home = () => {
   return (
-    <div className="  w-full h-screen flex flex-col lg:flex-row justify-center mr-10 bg-[#0a192f] ">
+    <div className="  w-full h-screen md:flex justify-center mr-10 bg-green-500 md:bg-red-500 lg:bg-green-500 ">
       {/* Container */}
       <div className=" ">
         <div className="max-w-[1000px] ml-[5rem]  flex flex-col justify-center h-full">

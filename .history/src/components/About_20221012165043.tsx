@@ -14,7 +14,7 @@ const About = () => {
             <img className="img-fluid float-right mr-7" src={Logo1} alt="" />
           </div>
           <div className="content_about">
-            <p className="text-3xl text-gray-300  border-l-2 border-pink-400">
+            <p className="text-3xl text-gray-300 inline border-l-2 border-pink">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
               facilis laudantium maxime, est unde nihil totam asperiores nam
               possimus laborum natus incidunt sapiente? Voluptatum modi nam

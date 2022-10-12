@@ -13,8 +13,8 @@ const About = () => {
           <div className="background_image">
             <img className="img-fluid float-right mr-7" src={Logo1} alt="" />
           </div>
-          <div className="content_about">
-            <p className="text-3xl text-gray-300  border-l-2 border-pink-400">
+          <div className="content_about border-l-4">
+            <p className="text-3xl text-gray-300">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
               facilis laudantium maxime, est unde nihil totam asperiores nam
               possimus laborum natus incidunt sapiente? Voluptatum modi nam

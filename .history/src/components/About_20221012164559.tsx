@@ -9,12 +9,12 @@ const About = () => {
             About
           </p>
         </div>
-        <div className=" w-full grid grid-cols-2  px-2 mt-5 gap-5 ">
+        <div className=" w-full grid grid-cols-2  px-2 ">
           <div className="background_image">
-            <img className="img-fluid float-right mr-7" src={Logo1} alt="" />
+            <img className="img-fluid items-end" src={Logo1} alt="" />
           </div>
           <div className="content_about">
-            <p className="text-3xl text-gray-300  border-l-2 border-pink-400">
+            <p className="text-4xl text-gray-300">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
               facilis laudantium maxime, est unde nihil totam asperiores nam
               possimus laborum natus incidunt sapiente? Voluptatum modi nam
