@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
         <li className="hover:bg-pink-600 hover:border-pink-600 p-4 duration-300">
           Download CV
-        </li>
+        </li>g
       </ul>
 
       {/* Hamburger */}
