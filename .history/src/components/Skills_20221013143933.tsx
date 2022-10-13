@@ -51,11 +51,11 @@ const Skills = () => {
           </div>
           <div className="cursor-pointer scale-[80%]  grayscale hover:grayscale-0 hover:scale-[100%] duration-300">
             <img className="w-20 mx-auto" src={Tailwind} alt="" />
-            <p className="text-center">Tailwind</p>
+            <p className="text-center">HTML</p>
           </div>
           <div className="cursor-pointer scale-[80%]  grayscale hover:grayscale-0 hover:scale-[100%] duration-300">
-            <img className="w-20 mx-auto" src={Mongo} alt="" />
-            <p className="text-center">Mongo</p>
+            <img className="w-20 mx-auto" src={HTML} alt="" />
+            <p className="text-center">HTML</p>
           </div>
           <div className="cursor-pointer scale-[80%]  grayscale hover:grayscale-0 hover:scale-[100%] duration-300">
             <img className="w-20 mx-auto" src={HTML} alt="" />
