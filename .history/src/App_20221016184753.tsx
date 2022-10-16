@@ -15,7 +15,9 @@ function App() {
         <Skills />
       </div>
 
-    
+      <div className="snap-center">
+        <Work />
+      </div>
     </main>
   );
 }
