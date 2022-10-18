@@ -18,7 +18,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
+            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">Home</li>

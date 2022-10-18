@@ -5,7 +5,7 @@ import Avatar from "../assets/homeAva.png";
   
 const Home = () => {
   return (
-    <div className="   w-full h-screen flex flex-col lg:flex-row justify-center items-center mr-10 bg-[#0a192f] gap-8">
+    <div className="  w-full h-screen flex flex-col lg:flex-row justify-center items-center mr-10 bg-[#0a192f] gap-8">
       {/* Container */}
       <motion.div
 

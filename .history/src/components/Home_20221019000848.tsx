@@ -5,13 +5,13 @@ import Avatar from "../assets/homeAva.png";
   
 const Home = () => {
   return (
-    <div className="   w-full h-screen flex flex-col lg:flex-row justify-center items-center mr-10 bg-[#0a192f] gap-8">
+    <div className="  w-full h-screen flex flex-col lg:flex-row justify-center items-center mr-10 bg-[#0a192f] gap-8">
       {/* Container */}
       <motion.div
 
        layout
-  initial={{ opacity: 0.5,x:-500  }}
-  animate={{ opacity: 1, x:-100 }}
+  initial={{ opacity: 0.5,scale:0,x:-500  }}
+  animate={{ opacity: 1, scale:1, x:-100 }}
   transition={{
    
     opacity: { ease: "linear" },
@@ -21,7 +21,7 @@ const Home = () => {
       
       className="content_home  flex justify-center items-center ">
         <div className="max-w-[500px] md:max-w-[1000px] md:ml-[5rem] flex flex-col justify-center h-full">
-          <p className="text-pink-600 text-2xl">Hi, My name is </p>
+          <p className="text-pink-600">Hi, My name is </p>
           <h1 className="text-4xl md:text-7xl font-bold  text-[#ccd6f6]">
             Nguyen Tran Thai Duy
           </h1>
@@ -52,7 +52,7 @@ const Home = () => {
   }}
 
       src={Avatar}
-       className="md:h-[400px] md:w-[300px] object-cover rounded-full duration-300 w-[200px] h-[200px] hover:shadow-2xl hover:scale-[125%] hover:shadow-white "
+       className="md:h-[400px] md:w-[300px] object-cover rounded-full duration-300 w-[100px] h-[100px] hover:shadow-2xl hover:scale-[125%] hover:shadow-white "
         alt="Thai Duy"
       />
 

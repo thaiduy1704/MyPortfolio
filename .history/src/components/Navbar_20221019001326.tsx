@@ -18,7 +18,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
+            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">Home</li>
@@ -29,7 +29,7 @@ const Navbar = () => {
       </ul>
 
     </div>
-    <div className="z-[10000] fixed w-full h-[80px] flex justify-between shadow-lg shadow-pink-500/50   items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="z-9999  fixed w-full h-[80px] flex justify-between shadow-lg shadow-pink-500/50   items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
        <p className="logo_name text-pink-600">Thai Duy</p>
       </div>

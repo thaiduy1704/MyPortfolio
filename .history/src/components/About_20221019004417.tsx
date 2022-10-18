@@ -11,11 +11,14 @@ const About = () => {
         </div>
         <div className=" w-full grid grid-cols-2  px-2 mt-5 gap-5 ">
           <div className="background_image">
-            <img className='img-fluid float-right mr-7 w-[500px] rounded-lg ' src={aboutMe} alt="Thai Duy" />
+            <img className="img-fluid float-right mr-7 w-[500px]  " src={aboutMe} alt="Thai Duy" />
           </div>
-          <div className="content_about mt-[100px]">
-            <p className="text-3xl text-gray-300  border-l-2 border-pink-400 font-sans">
-              I'm studying IT at university with a background in computer science. But I have over one year of experience working on responsive, modern design and utilizing excellent logic in web development. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.
+          <div className="content_about">
+            <p className="text-3xl text-gray-300  border-l-2 border-pink-400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              facilis laudantium maxime, est unde nihil totam asperiores nam
+              possimus laborum natus incidunt sapiente? Voluptatum modi nam
+              expedita sunt, veritatis fugiat.
             </p>
           </div>
         </div>
