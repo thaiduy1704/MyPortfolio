@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
+import {motion,AnimatePresence, AnimateSharedLayout } from 'framer-motion'
 import { data } from "../data/data";
 const Work = () => {
-  // projects file
-  const project = data;
-  //setProject(data);
+
+
+  const [selectedId, setSelectedId] = useState(null)
 
   return (
     <div className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -17,16 +18,43 @@ const Work = () => {
 
         {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+{/* 
+          Demo */}
+
+          {data.map(item => (
+  <motion.div layoutId={item.id} onClick={() => setSelectedId(item.id)}>
+    <motion.h5>{item.name}</motion.h5>
+    <motion.h2>{item.github}</motion.h2>
+  </motion.div>
+))}
+
+<AnimatePresence>
+  {selectedId && (
+    <motion.div layoutId={selectedId}>
+      <motion.h5>{item.name}</motion.h5>
+      <motion.h2>{item.github}</motion.h2>
+      <motion.button onClick={() => setSelectedId(null)} />
+    </motion.div>
+  )}
+</AnimatePresence>
+
+
+
+
+
+
+
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {/* {project.map((item, index) => (
             <div
               key={index}
               style={{backgroundImage:`url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div duration-300 "
-            >
+            > */}
               {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100 duration-300">
+              {/* <div className="opacity-0 group-hover:opacity-100 duration-300">
                 <span className="text-2xl font bold text-white tracking-wider ">
                   {item.name}
                 </span>
@@ -51,8 +79,9 @@ const Work = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
+    </div>
     </div>
   );
 };
