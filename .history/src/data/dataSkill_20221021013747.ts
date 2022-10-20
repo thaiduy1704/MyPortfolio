@@ -36,7 +36,7 @@ export const dataSkills=[
     },
     {
         id:5,
-        name:"ReduxToolKit",
+        name:"ReduxToolKits",
         image:ReduxToolKits
     },
     {

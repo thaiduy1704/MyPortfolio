@@ -2,7 +2,7 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import ReduxToolKits from '../assets/redux.png'
+import StyleComponents from '../assets/redux.png'
 import Node from "../assets/node.png";
 import Sass from '../assets/sass.png'
 import GitHub from "../assets/github.png";
@@ -36,54 +36,49 @@ export const dataSkills=[
     },
     {
         id:5,
-        name:"ReduxToolKit",
-        image:ReduxToolKits
-    },
-    {
-        id:6,
         name:"TypeScript",
         image:TypeScript
     },
     {
-        id:7,
+        id:6,
         name:"GitHub",
         image:GitHub
     },
     {
-        id:8,
+        id:7,
         name:"Tailwind",
         image:Tailwind
     },
     {
-        id:9,
+        id:8,
         name:"Sass",
         image:Sass
     },
     {
-        id:10,
+        id:9,
         name:"Node",
         image:Node
     },
     {
-        id:11,
+        id:10,
         name:"Mysql",
         image:Mysql
     },
     
     {
-        id:12,
+        id:11,
         name:"Express",
         image:Express
     },
 
     {
-        id:13,
+        id:12,
         name:"Prisma",
         image:Prisma
     },
     
     {
-        id:14,
+        id:13,
         name:"StyleComponents",
         image:StyleComponents
     },
