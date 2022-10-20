@@ -2,9 +2,9 @@
 import Airbnb from "../assets/projects/airbnb.png";
 import Imrox from "../assets/projects/imrox.png";
 import Master from "../assets/projects/masterwork.png";
-import Samar from "../assets/projects/samar.png";
-import Meipaly from "../assets/projects/meipaly.png";
-import Api from "../assets/projects/apiAirbnb.png";
+import RealEst from "../assets/projects/samar.png";
+import WorkIm from "../assets/projects/workImg.png";
+import RealEst from "../assets/projects/realestate.png";
 
 export const data = [
   {
@@ -15,39 +15,24 @@ export const data = [
     live: "",
   },
   {
-    id: "2",
+    id: 2,
     name: "React JS Application",
-    image: Imrox,
+    image: RealEst,
     github: "",
     live: "",
   },
   {
-    id: "3",
+    id: 3,
     name: "React JS Application",
-    image: Samar,
+    image: WorkIm,
     github: "",
     live: "",
   },
   {
-    id: "4",
+    id: 4,
     name: "React JS Application",
-    image: Meipaly,
+    image: RealEst,
     github: "",
     live: "",
   },
-  {
-    id: "5",
-    name: "React JS Application",
-    image: Master,
-    github: "",
-    live: "",
-  },
-  {
-    id: "6",
-    name: "React JS Application",
-    image: Api,
-    github: "",
-    live: "",
-  },
-  
 ];

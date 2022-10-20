@@ -73,7 +73,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.facebook.com/thaiduy1704/"
+              href="/"
             >
               Facebook <FaFacebook size={30} />
             </a>
@@ -97,7 +97,7 @@ const Navbar = () => {
            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/duy-nguyen-a72a0a253/"
+              href="/"
             >
               Linkedin <AiFillLinkedin size={30} />
             </a>

@@ -33,7 +33,7 @@ const About = () => {
               <img
                 src={aboutMe}
                 alt=""
-              className="a-img object-cover"
+                className="a-img object-cover"
               />
             </div>
           </motion.div>

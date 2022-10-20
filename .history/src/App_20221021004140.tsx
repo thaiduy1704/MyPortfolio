@@ -1,4 +1,4 @@
-import { Home, Navbar, About, Skills, Contact, Project } from "./components";
+import { Home, Navbar, About, Skills, Work, Contact, Project } from "./components";
 
 function App() {
   return (

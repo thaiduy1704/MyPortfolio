@@ -43,7 +43,6 @@
   
 }
 .a-left {
-  margin-top: 3rem;
   margin-left: 2rem;
   flex: 1;
   display: flex;
@@ -57,14 +56,14 @@
 
 .a-card.bg {
   position: absolute;
-  bottom: 70px;
-  left:50px
+  bottom: 40px;
+  left: 50px;
 
 }
 
 .a-card {
   width: 60%;
-  height: 50vh;
+  height: 70vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
