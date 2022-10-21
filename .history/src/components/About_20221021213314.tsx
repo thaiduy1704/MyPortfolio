@@ -25,7 +25,7 @@ const About = () => {
             initial={{ scale: 0 }}
             animate={{ x: 100, scale: 1 }}
             transition={{ delay: 2 }}
-            className="a-left md:ml-[2rem] ml-[-7rem]"
+            className="a-left ml-[-7rem]"
           >
             <div className="a-card bg bg-pink-600 w-full" ></div>
             <div className="a-card">
@@ -33,7 +33,7 @@ const About = () => {
             </div>
           </motion.div>
           <div className="content_about mt-[100px]">
-            <p className="text-2xl md:text-3xl mb-[5rem] text-gray-300  md:border-l-2 md:border-pink-400 font-sans">
+            <p className="text-3xl text-gray-300  border-l-2 border-pink-400 font-sans">
               I'm studying IT at university with a background in computer
               science. But I have over one year of experience working on
               responsive, modern design and utilizing excellent logic in web

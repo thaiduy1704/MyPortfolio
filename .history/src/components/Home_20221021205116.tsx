@@ -20,7 +20,7 @@ const Home = () => {
 
       
       className="content_home  flex justify-center items-center ">
-        <div className=" mt-[5rem] ml-[10rem] max-w-[500px] md:max-w-[1000px] md:ml-[5rem] flex flex-col justify-center h-full">
+        <div className=" mt-[2rem] ml-[5rem] max-w-[500px] md:max-w-[1000px] md:ml-[5rem] flex flex-col justify-center h-full">
           <p className="text-pink-600 text-2xl">Hi, My name is </p>
           <h1 className="text-4xl md:text-7xl font-bold  text-[#ccd6f6]">
             Nguyen Tran Thai Duy

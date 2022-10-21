@@ -5,10 +5,10 @@ import {dataSkills} from '../data/dataSkill'
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen bg-[#0a192f] text-gray-300 ">
+    <div className="w-full h-screen bg-[#0a192f] text-gray-300 mt-[5rem">
       {/* container */}
       <div className="max-w-[1000px] flex flex-col mx-auto">
-        <div className="title  mt-[5rem] md:mt-0">
+        <div className="title">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Skills
           </p>

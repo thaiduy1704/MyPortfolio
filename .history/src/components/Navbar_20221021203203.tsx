@@ -35,9 +35,6 @@ const Navbar = () => {
       </div>
 
       {/* Button Project */}
-      <div>
-        <button className="btn-project btn-8"><span>All Project</span></button>
-      </div>
 
       {/* menu */}
 

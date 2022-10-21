@@ -34,11 +34,6 @@ const Navbar = () => {
        <p className="logo_name text-pink-600">Thai Duy</p>
       </div>
 
-      {/* Button Project */}
-      <div>
-        <button className="btn-project btn-8"><span>All Project</span></button>
-      </div>
-
       {/* menu */}
 
       <ul className="hidden md:flex">

@@ -36,7 +36,7 @@ const Navbar = () => {
 
       {/* Button Project */}
       <div>
-        <button className="btn-project btn-8"><span>All Project</span></button>
+        <button className="bg-yellow-400">All Project</button>
       </div>
 
       {/* menu */}

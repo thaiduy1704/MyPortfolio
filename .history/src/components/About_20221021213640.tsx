@@ -33,7 +33,7 @@ const About = () => {
             </div>
           </motion.div>
           <div className="content_about mt-[100px]">
-            <p className="text-2xl md:text-3xl mb-[5rem] text-gray-300  md:border-l-2 md:border-pink-400 font-sans">
+            <p className="text-1xl text-gray-300  border-l-2 border-pink-400 font-sans">
               I'm studying IT at university with a background in computer
               science. But I have over one year of experience working on
               responsive, modern design and utilizing excellent logic in web
