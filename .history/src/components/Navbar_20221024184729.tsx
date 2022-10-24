@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
-import {Link} from 'react-scroll'
+
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
