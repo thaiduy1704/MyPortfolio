@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
 import {AiFillLinkedin} from 'react-icons/ai'
-
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
@@ -61,7 +61,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className=" md:hidden  z-[1000] cursor-pointer text-gray-50">
+      <div onClick={handleClick} className="md:hidden z-[1000] cursor-pointer text-gray-50">
         {!isNavOpen ? <FaBars /> : <FaTimes />}
       </div>
      

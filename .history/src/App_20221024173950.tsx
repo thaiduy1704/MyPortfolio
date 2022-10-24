@@ -3,7 +3,7 @@ import AllProject from "./page/AllProject";
 
 function App() {
   return (
- <>
+ 
       <Navbar />
     
         <Home />
@@ -16,7 +16,6 @@ function App() {
         <Project/>
       
         <Contact/>
- </>
     
     
 

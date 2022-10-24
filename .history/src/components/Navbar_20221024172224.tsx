@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
 import {AiFillLinkedin} from 'react-icons/ai'
-
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <>
-    
+    <div >
        {/* Mobile menu */}
       <ul
         className={
@@ -25,19 +25,18 @@ const Navbar = () => {
         <li className="py-6 text-4xl">About</li>
         <li className="py-6 text-4xl">Skills</li>
         <li className="py-6 text-4xl">Contact</li>
-        <li className="py-6 text-4xl">All Project</li>
         <li className="py-6 text-4xl">Resume</li>
       </ul>
 
-   
+    </div>
     <div className="z-[10000] fixed w-full h-[80px] flex justify-between shadow-lg shadow-pink-500/50   items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
        <p className="logo_name text-pink-600">Thai Duy</p>
       </div>
 
       {/* Button Project */}
-      <div className="hidden md:block">
-        <button className="btn-project btn-8 "><span>All Project</span></button>
+      <div>
+        <button className="btn-project btn-8"><span>All Project</span></button>
       </div>
 
       {/* menu */}
@@ -61,7 +60,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className=" md:hidden  z-[1000] cursor-pointer text-gray-50">
+      <div onClick={handleClick} className="md:hidden z-[1000] cursor-pointer text-gray-50">
         {!isNavOpen ? <FaBars /> : <FaTimes />}
       </div>
      

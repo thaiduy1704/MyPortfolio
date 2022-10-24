@@ -42,12 +42,12 @@
 
 }
 
-  /* @media screen and(min-width:480px) { 
+  @media screen and(min-width:480px) { 
     .btn-project .btn-8{
       display: none;
     }
     
-  } */
+  }
 .btn-8 {
   background-color: #f0ecfc;
 background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
