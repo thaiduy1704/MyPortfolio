@@ -32,14 +32,13 @@ const Home = () => {
             </h2>
 
             <div>
-              <a href="#projects">
-                <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-                  View work
-                  <span className="group-hover:rotate-90 duration-300">
-                    <HiArrowNarrowRight className="ml-3" />
-                  </span>
-                </button>
-              </a>
+              <a href="#projects"></a>
+              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+                View work
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
+                </span>
+              </button>
             </div>
           </div>
         </motion.div>
