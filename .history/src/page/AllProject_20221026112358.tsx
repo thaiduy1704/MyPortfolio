@@ -11,9 +11,7 @@ const AllProject = () => {
         <div className="container mx-auto my-auto">
           <div className="absolute top-0 left-0 mt-3 ml-3">
             <Link to="/">
-              <button className="bg-red-500 hover:bg-red-700 text-white text-center py-2 px-4 rounded-full">
-                back
-              </button>
+              <button>back</button>
             </Link>
           </div>
           <div className="text-center pt-[10rem] ">
@@ -26,10 +24,10 @@ const AllProject = () => {
                 </span>
               </button>
             </a>
-            <div className="mt-[3rem]">
-              <div className="animate-bounce flex justify-center  w-full h-[100%] ">
-                <BsFillArrowDownCircleFill className="text-center" size={50} />
-              </div>
+            <div className="items-center">
+              <svg className="animate-bounce w-full h-[100%] text">
+                <BsFillArrowDownCircleFill size={50} />
+              </svg>
             </div>
           </div>
         </div>

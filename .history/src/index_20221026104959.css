@@ -22,7 +22,7 @@
   }
 }
 body{
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 .btn-project{

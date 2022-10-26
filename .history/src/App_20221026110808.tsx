@@ -7,7 +7,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/all-project" element={<AllProject />} />
       </Routes>
     </Router>
   );

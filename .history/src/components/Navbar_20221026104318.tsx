@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
@@ -18,7 +17,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
+            : "fixed w-full  text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
         }
       >
         <a href="#home">
@@ -26,7 +25,7 @@ const Navbar = () => {
             Home
           </li>
         </a>
-        <a href="#about">
+        <a href="#about" className="duration-1000">
           <li onClick={handleClick} className="py-6 text-4xl">
             About
           </li>
@@ -52,11 +51,9 @@ const Navbar = () => {
 
         {/* Button Project */}
         <div className="hidden md:block">
-          <Link to="/all-project">
-            <button className="btn-project btn-8 ">
-              <span>All Project</span>
-            </button>
-          </Link>
+          <button className="btn-project btn-8 ">
+            <span>All Project</span>
+          </button>
         </div>
 
         {/* menu */}

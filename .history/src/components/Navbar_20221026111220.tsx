@@ -52,11 +52,10 @@ const Navbar = () => {
 
         {/* Button Project */}
         <div className="hidden md:block">
-          <Link to="/all-project">
-            <button className="btn-project btn-8 ">
-              <span>All Project</span>
-            </button>
-          </Link>
+          <Link></Link>
+          <button className="btn-project btn-8 ">
+            <span>All Project</span>
+          </button>
         </div>
 
         {/* menu */}

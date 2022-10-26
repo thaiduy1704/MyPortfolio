@@ -2,8 +2,7 @@ import React, { useState, useRef } from "react";
 import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { AiFillaedin } from "react-icons/ai";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
@@ -18,7 +17,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : "fixed w-full h-screen text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
+            : "fixed w-full  text-gray-300  bg-[#0a192f] flex flex-col justify-center items-center z-[10000]"
         }
       >
         <a href="#home">
@@ -52,11 +51,9 @@ const Navbar = () => {
 
         {/* Button Project */}
         <div className="hidden md:block">
-          <Link to="/all-project">
-            <button className="btn-project btn-8 ">
-              <span>All Project</span>
-            </button>
-          </Link>
+          <button className="btn-project btn-8 ">
+            <span>All Project</span>
+          </button>
         </div>
 
         {/* menu */}
@@ -143,7 +140,7 @@ const Navbar = () => {
                 className="flex justify-between items-center w-full text-gray-300"
                 href="https://www.aedin.com/in/duy-nguyen-a72a0a253/"
               >
-                Linkedin <AiFillLinkedin size={30} />
+                aedin <AiFillaedin size={30} />
               </a>
             </li>
           </ul>

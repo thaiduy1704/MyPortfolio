@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Button Project */}
         <div className="hidden md:block">
-          <Link to="/all-project">
+          <Link>
             <button className="btn-project btn-8 ">
               <span>All Project</span>
             </button>
