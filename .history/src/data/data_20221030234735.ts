@@ -158,7 +158,7 @@ export const data = [
   },
   {
     id: 6,
-    name: "Tebula",
+    name: "Tebula",``
     image: Tebula,
     type: 1,
 
