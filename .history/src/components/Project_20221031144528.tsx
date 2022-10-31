@@ -4,7 +4,7 @@ import { dummyData } from "../data/dummyData";
 
 const Project = () => {
   // projects file
-  const project = dummyData;
+  const project = data;
   //setProject(data);
   const [selectedId, setSelectedId] = useState(null);
 
@@ -41,9 +41,9 @@ const Project = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Gird Item */}
-          {project.map((item, id) => (
+          {project.map((item, index) => (
             <div
-              key={id}
+              key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "

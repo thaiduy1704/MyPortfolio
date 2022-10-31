@@ -102,7 +102,15 @@ export const data = [
     github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CAMPING_NguyenTranThaiDuy",
     live: "https://cybersoft-camping.netlify.app/",
   },
-  
+  {
+    id: 9,
+    name: "Tebula",
+    image: Tebula,
+    type: 1,
+
+    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TEBULA_NguyenTranThaiDuy",
+    live: "https://cybersoft-tebula.netlify.app/",
+  },
   {
     id: 10,
     name: "Birthday - Reminder",
