@@ -45,7 +45,7 @@ const Navbar = () => {
         <Link to="/all-project">
           <li className="py-6 text-4xl">All Project</li>
         </Link>
-        <a download href={myCV}>
+        <a href="">
           <li className="py-6 text-4xl">Resume</li>
         </a>
       </ul>

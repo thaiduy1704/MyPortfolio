@@ -45,9 +45,7 @@ const Navbar = () => {
         <Link to="/all-project">
           <li className="py-6 text-4xl">All Project</li>
         </Link>
-        <a download href={myCV}>
-          <li className="py-6 text-4xl">Resume</li>
-        </a>
+        <li className="py-6 text-4xl">Resume</li>
       </ul>
 
       <div className="z-[10000] fixed w-full h-[80px] flex justify-between shadow-lg shadow-pink-500/50   items-center px-4 bg-[#0a192f] text-gray-300">

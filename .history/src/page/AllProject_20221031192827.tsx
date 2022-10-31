@@ -79,7 +79,7 @@ const AllProject = () => {
         </div>
       </div>
 
-      <div className="snap-center htmlProject md:mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Basic React</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {project.map((item) => {
@@ -124,7 +124,7 @@ const AllProject = () => {
         </div>
       </div>
 
-      <div className="snap-center htmlProject md:mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">
           Advance React TypeScript
         </h1>
@@ -170,7 +170,7 @@ const AllProject = () => {
           })}
         </div>
       </div>
-      <div className="snap-center htmlProject md:mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Nodejs</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {project.map((item) => {
