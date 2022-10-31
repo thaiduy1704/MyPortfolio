@@ -6,7 +6,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 const AllProject = () => {
   const project = data;
   return (
-    <div className="snap-y` snap-mandatory overflow-scroll h-screen">
+    <div className="snap-y snap-mandatory h-screen overflow-y-scroll overflow-x-hidden">
       <div className=" snap-center bgProject   bg-cover bg-center bg-no-repeat h-[35rem] w-full">
         <div className="container mx-auto my-auto">
           <div className="absolute top-0 left-0 mt-3 ml-3">
@@ -34,7 +34,7 @@ const AllProject = () => {
           </div>
         </div>
       </div>
-      <div className=" snap-center htmlProject mx-[10rem] my-[10rem]">
+      <div className=" snap-center htmlProject mx-[5rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">HTML-CSS-JS</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {project.map((item) => {
@@ -44,7 +44,7 @@ const AllProject = () => {
                   key={item.id}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="shadow-2xl shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div content-div-all  "
+              flex justify-center text-center items-center mx-auto content-div "
                 >
                   {/* Hover effect for images */}
                   <div className="opacity-0 group-hover:opacity-100 ">
@@ -79,7 +79,7 @@ const AllProject = () => {
         </div>
       </div>
 
-      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[5rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Basic React</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {project.map((item) => {
@@ -89,7 +89,7 @@ const AllProject = () => {
                   key={item.id}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="shadow-2xl shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div  content-div-all"
+              flex justify-center text-center items-center mx-auto content-div "
                 >
                   {/* Hover effect for images */}
                   <div className="opacity-0 group-hover:opacity-100 ">
@@ -124,7 +124,7 @@ const AllProject = () => {
         </div>
       </div>
 
-      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[5rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">
           Advance React TypeScript
         </h1>
@@ -136,7 +136,7 @@ const AllProject = () => {
                   key={item.id}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="shadow-2xl shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div content-div-all"
+              flex justify-center text-center items-center mx-auto content-div "
                 >
                   {/* Hover effect for images */}
                   <div className="opacity-0 group-hover:opacity-100 ">
@@ -170,7 +170,7 @@ const AllProject = () => {
           })}
         </div>
       </div>
-      <div className="snap-center htmlProject mx-[10rem] my-[10rem]">
+      <div className="snap-center htmlProject mx-[5rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Nodejs</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {project.map((item) => {
@@ -180,7 +180,7 @@ const AllProject = () => {
                   key={item.id}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="shadow-2xl shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div  content-div-all "
+              flex justify-center text-center items-center mx-auto content-div "
                 >
                   {/* Hover effect for images */}
                   <div className="opacity-0 group-hover:opacity-100 ">

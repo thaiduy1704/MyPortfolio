@@ -4,7 +4,6 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsTelephoneFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import myCV from "../assets/NguyenTranThaiDuy-CV.pdf";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);
@@ -89,7 +88,7 @@ const Navbar = () => {
               Contact
             </li>
           </a>
-          <a download href={myCV}>
+          <a download="../assets/NguyenTranThaiDuy-CV.pdf">
             <li className="hover:bg-pink-600 hover:border-pink-600 p-4 duration-300">
               Resume
             </li>

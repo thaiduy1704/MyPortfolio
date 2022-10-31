@@ -44,7 +44,7 @@ const AllProject = () => {
                   key={item.id}
                   style={{ backgroundImage: `url(${item.image})` }}
                   className="shadow-2xl shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div content-div-all  "
+              flex justify-center text-center items-center mx-auto content-div content-div-all transition duration-150 ease-out hover:ease-in "
                 >
                   {/* Hover effect for images */}
                   <div className="opacity-0 group-hover:opacity-100 ">

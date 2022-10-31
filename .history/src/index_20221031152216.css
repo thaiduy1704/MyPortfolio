@@ -149,9 +149,8 @@ background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
 .content-div-all:hover {
   background-image: linear-gradient(
     to right,
-    #ffafbd  ,
-    #ffc3a0
-   
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
   ) !important;
 }
 .logo_name{
