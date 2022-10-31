@@ -20,8 +20,6 @@ import Navbar from '../assets/projects/navbar.png'
 import Markdown from '../assets/projects/markdown.png'
 import DarkMode from '../assets/projects/darkMode.png'
 import Movie from '../assets/projects/movie.png'
-import Portfolio  from '../assets/projects/portfolio.png'
-
 
 
 
@@ -228,23 +226,5 @@ export const data = [
 
     github: "https://github.com/thaiduy1704/AirBnB",
     live: "https://thaiduyairbnb.vercel.app/",
-  },
-  {
-    id: 23,
-    name: "Portfolio",
-    image: Portfolio,
-    type: 3,
-
-    github: "https://github.com/thaiduy1704/MyPortfolio",
-    live: "https://portfolio-thaiduy1704.vercel.app/",
-  },
-  {
-    id: 24,
-    name: "Api-Airbnb",
-    image: Api,
-    type: 4,
-
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
-    live: "",
   },
 ];

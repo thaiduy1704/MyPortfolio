@@ -244,7 +244,7 @@ export const data = [
     image: Api,
     type: 4,
 
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
+    github: "https://github.com/thaiduy1704/MyPortfolio",
     live: "",
   },
 ];

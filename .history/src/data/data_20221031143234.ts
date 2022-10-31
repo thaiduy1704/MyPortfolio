@@ -242,9 +242,9 @@ export const data = [
     id: 24,
     name: "Api-Airbnb",
     image: Api,
-    type: 4,
+    type: 3,
 
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
-    live: "",
+    github: "https://github.com/thaiduy1704/MyPortfolio",
+    live: "https://portfolio-thaiduy1704.vercel.app/",
   },
 ];

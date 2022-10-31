@@ -20,8 +20,6 @@ import Navbar from '../assets/projects/navbar.png'
 import Markdown from '../assets/projects/markdown.png'
 import DarkMode from '../assets/projects/darkMode.png'
 import Movie from '../assets/projects/movie.png'
-import Portfolio  from '../assets/projects/portfolio.png'
-
 
 
 
@@ -127,7 +125,7 @@ export const data = [
     type: 2,
 
     github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/02-tours",
-    live: "https://tours-thaiduy.netlify.app/",
+    live: "https://tours-snowy.vercel.app/",
   },
   {
     id: 12,
@@ -221,30 +219,12 @@ export const data = [
     live: "https://movie-gules.vercel.app/",
   },
   {
-    id: 22,
-    name: "Airbnb",
-    image: Airbnb,
-    type: 3,
+    id: 17,
+    name: "Lorem",
+    image: Lorem,
+    type: 2,
 
-    github: "https://github.com/thaiduy1704/AirBnB",
-    live: "https://thaiduyairbnb.vercel.app/",
-  },
-  {
-    id: 23,
-    name: "Portfolio",
-    image: Portfolio,
-    type: 3,
-
-    github: "https://github.com/thaiduy1704/MyPortfolio",
-    live: "https://portfolio-thaiduy1704.vercel.app/",
-  },
-  {
-    id: 24,
-    name: "Api-Airbnb",
-    image: Api,
-    type: 4,
-
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
-    live: "",
+    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/08-Lorem",
+    live: "https://lorem-thaiduy.netlify.app/",
   },
 ];

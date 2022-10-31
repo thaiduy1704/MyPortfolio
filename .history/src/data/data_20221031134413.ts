@@ -14,14 +14,6 @@ import Review from '../assets/projects/reviews.png'
 import Accordion from '../assets/projects/accordion.png'
 import Menu from '../assets/projects/menu.png'
 import Tab from '../assets/projects/tab.png'
-import Slider from '../assets/projects/slider.png'
-import Lorem from '../assets/projects/lorem.png'
-import Navbar from '../assets/projects/navbar.png'
-import Markdown from '../assets/projects/markdown.png'
-import DarkMode from '../assets/projects/darkMode.png'
-import Movie from '../assets/projects/movie.png'
-import Portfolio  from '../assets/projects/portfolio.png'
-
 
 
 
@@ -127,7 +119,7 @@ export const data = [
     type: 2,
 
     github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/02-tours",
-    live: "https://tours-thaiduy.netlify.app/",
+    live: "https://tours-snowy.vercel.app/",
   },
   {
     id: 12,
@@ -168,83 +160,20 @@ export const data = [
   },
   {
     id:16 ,
-    name: "Slider",
-    image: Slider,
-    type: 2,
+    name: "Tebula",
+    image: Tebula,
+    type: 1,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/07-Slider",
-    live: "https://slider-thaiduy.netlify.app/",
+    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TEBULA_NguyenTranThaiDuy",
+    live: "https://cybersoft-tebula.netlify.app/",
   },
   {
-    id: 17,
-    name: "Lorem",
-    image: Lorem,
-    type: 2,
+    id: 6,
+    name: "Tebula",
+    image: Tebula,
+    type: 1,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/08-Lorem",
-    live: "https://lorem-thaiduy.netlify.app/",
-  },
-  {
-    id: 18,
-    name: "Navbar",
-    image: Navbar,
-    type: 2,
-
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/11-Navbar",
-    live: "https://navbar-thaiduy.netlify.app/",
-  },
-  {
-    id: 19,
-    name: "Markdown",
-    image: Markdown,
-    type: 2,
-
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/16-Markdown",
-    live: "https://markdown-thaiduy.netlify.app/",
-  },
-  {
-    id: 20,
-    name: "DarkMode",
-    image: DarkMode,
-    type: 2,
-
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/20-DarkMode",
-    live: "https://darkmode-thaiduy.netlify.app/",
-  },
-  {
-    id: 21,
-    name: "Movie",
-    image: Movie,
-    type: 3,
-
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/21-MovieDB",
-    live: "https://movie-gules.vercel.app/",
-  },
-  {
-    id: 22,
-    name: "Airbnb",
-    image: Airbnb,
-    type: 3,
-
-    github: "https://github.com/thaiduy1704/AirBnB",
-    live: "https://thaiduyairbnb.vercel.app/",
-  },
-  {
-    id: 23,
-    name: "Portfolio",
-    image: Portfolio,
-    type: 3,
-
-    github: "https://github.com/thaiduy1704/MyPortfolio",
-    live: "https://portfolio-thaiduy1704.vercel.app/",
-  },
-  {
-    id: 24,
-    name: "Api-Airbnb",
-    image: Api,
-    type: 4,
-
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
-    live: "",
+    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TEBULA_NguyenTranThaiDuy",
+    live: "https://cybersoft-tebula.netlify.app/",
   },
 ];
