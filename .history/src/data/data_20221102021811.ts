@@ -117,15 +117,6 @@ export const data = [
     github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TODOLIST_NguyenTranThaiDuy",
     live: "https://todolist-zeta-bice.vercel.app/",
   },
-   {
-    id: 91,
-    name: "Staff Manager",
-    image: StaffManager,
-    type: 1,
-
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_JS_BUOI9-10_NguyenTranThaiDuy",
-    live: "https://staffmanager-thaiduy.netlify.app/",
-  },
   
   {
     id: 10,
