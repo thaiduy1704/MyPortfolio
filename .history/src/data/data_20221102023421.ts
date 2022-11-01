@@ -25,9 +25,6 @@ import Todo  from '../assets/projects/todo.png'
 import OverUnder  from '../assets/projects/overunder.png'
 import Shoes  from '../assets/projects/shoes.png'
 import StaffManager  from '../assets/projects/staff.png'
-import Game  from '../assets/projects/keobuabao.png'
-import Glasses  from '../assets/projects/glasses.png'
-import Phone  from '../assets/projects/phone.png'
 
 
 
@@ -227,28 +224,9 @@ export const data = [
     image: Game,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Game_NguyenTranThaiDuy",
+    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Shoes_NguyenTranThaiDuy",
     live: "https://keobuabao-thaiduy.netlify.app/",
   },
-   {
-    id: 174,
-    name: "Glasses",
-    image: Glasses,
-    type: 2,
-
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_GLASSES_NguyenTranThaiDuy",
-    live: "https://glasses-thaiduy.netlify.app/",
-  },
-  {
-    id: 175,
-    name: "Phone",
-    image: Phone,
-    type: 1,
-
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CyberPhone_NguyenTranThaiDuy",
-    live: "https://phone-thaiduy.netlify.app/",
-  },
- 
  
   {
     id: 18,

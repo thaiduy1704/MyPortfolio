@@ -27,7 +27,7 @@ import Shoes  from '../assets/projects/shoes.png'
 import StaffManager  from '../assets/projects/staff.png'
 import Game  from '../assets/projects/keobuabao.png'
 import Glasses  from '../assets/projects/glasses.png'
-import Phone  from '../assets/projects/phone.png'
+import Phone  from '../assets/projects/staff.png'
 
 
 
