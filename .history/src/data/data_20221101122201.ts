@@ -110,8 +110,8 @@ export const data = [
     image: Todo,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TODOLIST_NguyenTranThaiDuy",
-    live: "https://todolist-zeta-bice.vercel.app/",
+    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CAMPING_NguyenTranThaiDuy",
+    live: "https://cybersoft-camping.netlify.app/",
   },
   
   {
