@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "framer-motion";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Avatar from "../assets/homeAva.png";

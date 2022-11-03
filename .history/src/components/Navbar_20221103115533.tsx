@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephoneFill } from "react-icons/bs";

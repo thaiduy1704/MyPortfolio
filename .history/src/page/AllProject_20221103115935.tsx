@@ -82,9 +82,8 @@ const AllProject = () => {
       <div className="snap-center htmlProject md:mx-[10rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Basic React</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {project
-            .filter((item) => item.type === 2)
-            .map((item) => {
+          {project.map((item) => {
+            if (item.type === 2) {
               return (
                 <div
                   key={item.id}
@@ -120,7 +119,8 @@ const AllProject = () => {
                   </div>
                 </div>
               );
-            })}
+            }
+          })}
         </div>
       </div>
 
@@ -129,9 +129,8 @@ const AllProject = () => {
           Advance React TypeScript
         </h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {project
-            .filter((item) => item.type === 3)
-            .map((item) => {
+          {project.map((item) => {
+            if (item.type === 3) {
               return (
                 <div
                   key={item.id}
@@ -167,15 +166,15 @@ const AllProject = () => {
                   </div>
                 </div>
               );
-            })}
+            }
+          })}
         </div>
       </div>
       <div className="snap-center htmlProject md:mx-[10rem] my-[10rem]">
         <h1 className="text-4xl font-bold text-center p-6 ">Nodejs</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {project
-            .filter((item) => item.type === 4)
-            .map((item) => {
+          {project.map((item) => {
+            if (item.type === 4) {
               return (
                 <div
                   key={item.id}
@@ -211,7 +210,8 @@ const AllProject = () => {
                   </div>
                 </div>
               );
-            })}
+            }
+          })}
         </div>
       </div>
     </div>
