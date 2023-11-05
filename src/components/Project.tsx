@@ -1,9 +1,7 @@
 import { dummyData } from "../data/dummyData";
 
 const Project = () => {
-  // projects file
   const project = dummyData;
-  //setProject(data);
 
   return (
     <div
@@ -17,24 +15,6 @@ const Project = () => {
           </p>
           <p className="py-6">Check out some of my recent work</p>
         </div>
-
-        {/* container for projects */}
-        {/* {project.map(item => (
-  <motion.div layoutId={item.id} onClick={() => setSelectedId(item.id)}>
-    <motion.h5>{item.name}</motion.h5>
-    <motion.h2>{item.github}</motion.h2>
-  </motion.div>
-))}
-
-<AnimatePresence>
-  {selectedId && (
-    <motion.div layoutId={selectedId}>
-      <motion.h5>thaiduy</motion.h5>
-      <motion.h2>thaiduy</motion.h2>
-      <motion.button onClick={() => setSelectedId("")} />
-    </motion.div>
-  )}
-</AnimatePresence> */}
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Gird Item */}

@@ -5,36 +5,30 @@ import Samar from "../assets/projects/samar.png";
 import Meipaly from "../assets/projects/meipaly.png";
 import Api from "../assets/projects/apiAirbnb.png";
 import Mastery from "../assets/projects/Mastery.png";
-import PortfolioCB from '../assets/projects/portfolioCB.png'
-import Tebula from '../assets/projects/Tebula.png'
-import Camping from '../assets/projects/camping.png'
-import Tour from '../assets/projects/tours.png'
-import Birthday from '../assets/projects/birthday.png'
-import Review from '../assets/projects/review.png'
-import Accordion from '../assets/projects/accordion.png'
-import Menu from '../assets/projects/menu.png'
-import Tab from '../assets/projects/tab.png'
-import Slider from '../assets/projects/slider.png'
-import Lorem from '../assets/projects/lorem.png'
-import Navbar from '../assets/projects/navbar.png'
-import Markdown from '../assets/projects/markdown.png'
-import DarkMode from '../assets/projects/darkMode.png'
-import Movie from '../assets/projects/movie.png'
-import Portfolio  from '../assets/projects/portfolio.png'
-import Todo  from '../assets/projects/todo.png'
-import OverUnder  from '../assets/projects/overunder.png'
-import Shoes  from '../assets/projects/shoes.png'
-import StaffManager  from '../assets/projects/staff.png'
-import Game  from '../assets/projects/keobuabao.png'
-import Glasses  from '../assets/projects/glasses.png'
-import Phone  from '../assets/projects/phone.png'
-
-
-
-
-
-
-
+import PortfolioCB from "../assets/projects/portfolioCB.png";
+import Tebula from "../assets/projects/Tebula.png";
+import Camping from "../assets/projects/camping.png";
+import Tour from "../assets/projects/tours.png";
+import Birthday from "../assets/projects/birthday.png";
+import Review from "../assets/projects/review.png";
+import Accordion from "../assets/projects/accordion.png";
+import Menu from "../assets/projects/menu.png";
+import Tab from "../assets/projects/tab.png";
+import Slider from "../assets/projects/slider.png";
+import Lorem from "../assets/projects/lorem.png";
+import Navbar from "../assets/projects/navbar.png";
+import Markdown from "../assets/projects/markdown.png";
+import DarkMode from "../assets/projects/darkMode.png";
+import Movie from "../assets/projects/movie.png";
+import Portfolio from "../assets/projects/portfolio.png";
+import Todo from "../assets/projects/todo.png";
+import OverUnder from "../assets/projects/overunder.png";
+import Shoes from "../assets/projects/shoes.png";
+import StaffManager from "../assets/projects/staff.png";
+import Game from "../assets/projects/keobuabao.png";
+import Glasses from "../assets/projects/glasses.png";
+import Phone from "../assets/projects/phone.png";
+import airbnbDotnet from "../assets/projects/airbnbdotnet.png";
 
 export const data = [
   {
@@ -72,7 +66,8 @@ export const data = [
     image: Samar,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_SAMAR_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_SAMAR_NguyenTranThaiDuy",
     live: "https://cybersoft-samar.netlify.app/",
   },
   {
@@ -81,7 +76,8 @@ export const data = [
     image: PortfolioCB,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_PORTFOLIO_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_PORTFOLIO_NguyenTranThaiDuy",
     live: "https://cybersoft-portfolio.netlify.app/",
   },
   {
@@ -90,7 +86,8 @@ export const data = [
     image: Tebula,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TEBULA_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TEBULA_NguyenTranThaiDuy",
     live: "https://cybersoft-tebula.netlify.app/",
   },
   {
@@ -99,7 +96,8 @@ export const data = [
     image: Imrox,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_IMROZ_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_IMROZ_NguyenTranThaiDuy",
     live: "https://cybersoft-imroz.netlify.app/",
   },
   {
@@ -108,35 +106,39 @@ export const data = [
     image: Camping,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CAMPING_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CAMPING_NguyenTranThaiDuy",
     live: "https://cybersoft-camping.netlify.app/",
   },
-   {
+  {
     id: 9,
     name: "Todo",
     image: Todo,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TODOLIST_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_TODOLIST_NguyenTranThaiDuy",
     live: "https://todolist-zeta-bice.vercel.app/",
   },
-   {
+  {
     id: 91,
     name: "Staff Manager",
     image: StaffManager,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_JS_BUOI9-10_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_JS_BUOI9-10_NguyenTranThaiDuy",
     live: "https://staffmanager-thaiduy.netlify.app/",
   },
-  
+
   {
     id: 10,
     name: "Birthday - Reminder",
     image: Birthday,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/01-birthday-reminder",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/01-birthday-reminder",
     live: "https://birthday-olive.vercel.app/",
   },
   {
@@ -145,7 +147,8 @@ export const data = [
     image: Tour,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/02-tours",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/02-tours",
     live: "https://tours-thaiduy.netlify.app/",
   },
   {
@@ -154,8 +157,9 @@ export const data = [
     image: Review,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/03-reviews",
-    live: "https://reviews-iota.vercel.app/"
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/03-reviews",
+    live: "https://reviews-iota.vercel.app/",
   },
 
   {
@@ -164,7 +168,8 @@ export const data = [
     image: Accordion,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/04-Accordion",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/04-Accordion",
     live: "https://accordion-thaiduy.netlify.app/",
   },
   {
@@ -173,7 +178,8 @@ export const data = [
     image: Menu,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/05-Menu",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/05-Menu",
     live: "https://menu-thaiduy.netlify.app/",
   },
   {
@@ -182,16 +188,18 @@ export const data = [
     image: Tab,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/06-Tabs",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/06-Tabs",
     live: "https://tab-thaiduy.netlify.app/",
   },
   {
-    id:16 ,
+    id: 16,
     name: "Slider",
     image: Slider,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/07-Slider",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/07-Slider",
     live: "https://slider-thaiduy.netlify.app/",
   },
   {
@@ -200,7 +208,8 @@ export const data = [
     image: Lorem,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/08-Lorem",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/08-Lorem",
     live: "https://lorem-thaiduy.netlify.app/",
   },
   {
@@ -209,7 +218,8 @@ export const data = [
     image: OverUnder,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_OverUnder_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_OverUnder_NguyenTranThaiDuy",
     live: "https://overunder-thaiduy.netlify.app/",
   },
   {
@@ -218,25 +228,28 @@ export const data = [
     image: Shoes,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Shoes_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Shoes_NguyenTranThaiDuy",
     live: "https://shoes-thaiduy.netlify.app/",
   },
-   {
+  {
     id: 173,
     name: "Game Mini",
     image: Game,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Game_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_Game_NguyenTranThaiDuy",
     live: "https://keobuabao-thaiduy.netlify.app/",
   },
-   {
+  {
     id: 174,
     name: "Glasses",
     image: Glasses,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_GLASSES_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_GLASSES_NguyenTranThaiDuy",
     live: "https://glasses-thaiduy.netlify.app/",
   },
   {
@@ -245,18 +258,19 @@ export const data = [
     image: Phone,
     type: 1,
 
-    github: "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CyberPhone_NguyenTranThaiDuy",
+    github:
+      "https://github.com/thaiduy1704/Cybersoft/tree/master/BootCamp25_CyberPhone_NguyenTranThaiDuy",
     live: "https://phone-thaiduy.netlify.app/",
   },
- 
- 
+
   {
     id: 18,
     name: "Navbar",
     image: Navbar,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/11-Navbar",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/11-Navbar",
     live: "https://navbar-thaiduy.netlify.app/",
   },
   {
@@ -265,7 +279,8 @@ export const data = [
     image: Markdown,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/16-Markdown",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/16-Markdown",
     live: "https://markdown-thaiduy.netlify.app/",
   },
   {
@@ -274,7 +289,8 @@ export const data = [
     image: DarkMode,
     type: 2,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/20-DarkMode",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/20-DarkMode",
     live: "https://darkmode-thaiduy.netlify.app/",
   },
   {
@@ -283,7 +299,8 @@ export const data = [
     image: Movie,
     type: 3,
 
-    github: "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/21-MovieDB",
+    github:
+      "https://github.com/thaiduy1704/TypeScriptBasic/tree/master/21-MovieDB",
     live: "https://movie-gules.vercel.app/",
   },
   {
@@ -293,7 +310,7 @@ export const data = [
     type: 3,
 
     github: "https://github.com/thaiduy1704/AirBnB",
-    live: "https://thaiduyairbnb.vercel.app/",
+    live: "https://airbnbapp-tduy.vercel.app/",
   },
   {
     id: 23,
@@ -310,7 +327,16 @@ export const data = [
     image: Api,
     type: 4,
 
-    github: "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
+    github:
+      "https://github.com/thaiduy1704/NguyenTranThaiDuy_Nodejs23_BackEndAirbnb",
     live: "",
+  },
+  {
+    id: 25,
+    name: "Airbnb.Platform",
+    image: airbnbDotnet,
+    type: 5,
+    github: "https://github.com/thaiduy1704/Airbnb.PlatformAPI",
+    live: "https://airbnb-thaiduy.azurewebsites.net/swagger/index.html",
   },
 ];
