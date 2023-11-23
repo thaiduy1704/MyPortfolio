@@ -26,7 +26,7 @@ const Home = () => {
               Nguyen Tran Thai Duy
             </h1>
             <h2 className="text-4xl md:text-7xl font-bold text-[#8892b0]">
-              I'm a Front End Developer.
+              I'm a FullStack Developer.
             </h2>
 
             <div>
