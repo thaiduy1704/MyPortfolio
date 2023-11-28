@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephoneFill } from "react-icons/bs";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import myCV from "../assets/NguyenTranThaiDuy_CVNET.pdf";
+import myCV from "../assets/NguyenTranThaiDuy_CVFINAL.pdf";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<Boolean>(false);

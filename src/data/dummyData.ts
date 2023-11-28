@@ -62,6 +62,6 @@ export const dummyData = [
     type: 4,
 
     github: "https://github.com/thaiduy1704/Airbnb.PlatformAPI",
-    live: "https://airbnb-thaiduy.azurewebsites.net/swagger/index.html",
+    live: "https://thaiduyairbnb.azurewebsites.net/swagger/index.html",
   },
 ];

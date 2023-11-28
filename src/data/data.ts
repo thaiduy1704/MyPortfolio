@@ -337,6 +337,6 @@ export const data = [
     image: airbnbDotnet,
     type: 5,
     github: "https://github.com/thaiduy1704/Airbnb.PlatformAPI",
-    live: "https://airbnb-thaiduy.azurewebsites.net/swagger/index.html",
+    live: "https://thaiduyairbnb.azurewebsites.net/swagger/index.html",
   },
 ];
